@@ -7,7 +7,7 @@ import requests
 import voluptuous as vol
 
 from homeassistant.config_entries import ConfigEntry
-from homeassistant.helpers.typing import HomeAssistantType
+from homeassistant.core.HomeAssistant import HomeAssistantType
 
 from homeassistant import config_entries
 import homeassistant.helpers.config_validation as cv
